@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata Mahasiswa</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        #container {
+            width: 650px;
+            margin: auto;
+            text-align: left;
+        }
+        
+        #header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 5px;
+        }
+        .logo {
+            width: 70px;  
+        }
+
+        #header-text {
+            text-align: center;
+        }
+
+        #header-text h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        #header-text p {
+            margin: 2px 0;
+            font-size: 14px;
+        }
+
+        #garis {
+            border: 2px solid navy;
+            margin: 10px 0;
+        }
+
+        #judul-biodata {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            font-size: 14px;
+        }
+
+        table td {
+            padding: 5px;
+        }
+
+        .input-text {
+            width: 300px;
+            height: 20px;
+        }
+
+        .alamat-box {
+            width: 350px;
+            height: 70px;
+        }
+
+        .btn {
+            padding: 5px 15px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="header">
+            <img src="Logo_unindra_png.png"
+                 class="logo">
+
+            <div id="header-text">
+                <h3>UNIVERSITAS INDRAPRASTA PGRI<br>(UNINDRA)</h3>
+                <p>Jl. Nangka No. 58 Tanjung Barat - Jaksel</p>
+            </div>
+        </div>
+
+        <hr id="garis">
+
+        <div id="judul-biodata">BIODATA MAHASISWA</div>
+
+        <table>
+            <tr>
+                <td>NAMA</td>
+                <td>:</td>
+                <td><input type="text" class="input-text"></td>
+            </tr>
+
+            <tr>
+                <td>ALAMAT</td>
+                <td>:</td>
+                <td><textarea class="alamat-box"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>TANGGAL LAHIR</td>
+                <td>:</td>
+                <td><input type="date" class="input-text"></td>
+            </tr>
+
+            <tr>
+                <td>TELP</td>
+                <td>:</td>
+                <td><input type="text" class="input-text"></td>
+            </tr>
+
+            <tr>
+                <td>EMAIL</td>
+                <td>:</td>
+                <td><input type="email" class="input-text"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <button class="btn">SIMPAN</button>
+                    <button class="btn">BATAL</button>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>
